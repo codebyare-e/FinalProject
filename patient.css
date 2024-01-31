@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, sans-serif;
+	background: url('images/bgpic.jpg') no-repeat;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+	width: 100%;
+	padding: 7px 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #333;
+}
+
+.form-group textarea {
+	width: 100%;
+	padding: 7px 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #333;
+	resize: none;
+	height: 100px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #0056b3;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	margin: 4px 2px;
+	cursor: pointer;
+   }
+   
+   .button:hover {
+	background-color: #45a049;
+   }
